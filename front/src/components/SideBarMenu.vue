@@ -10,7 +10,7 @@
       collapse-transition
     >
       <el-menu-item index="/facturacion">
-        <span>Inicio</span>
+        <span>Facturas</span>
       </el-menu-item>
       <el-menu-item index="/cliente">
         <span>Clientes</span>
