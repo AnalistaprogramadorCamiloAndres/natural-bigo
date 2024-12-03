@@ -3,11 +3,10 @@ import vue from '@vitejs/plugin-vue';
 
 const defineConfig = require('vite'); // Declaración duplicada
 import vue from '@vitejs/plugin-vue';
-const vue = require('@vitejs/plugin-vue'); // Declaración duplicada
+const vue = require('@vitejs/plugin-vue');
 
-
-
-
+// Importación única del plugin de Vue
+import path from 'path';// Declaración duplicada
 
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
@@ -18,7 +17,6 @@ export default defineConfig({
   base: '/mi-app/',
   resolve: {
     alias: {
-     
       build: path.resolve(__dirname, 'src/build'),
       outdir: path.resolve(__dirname, 'dist'),
       '@': path.resolve(__dirname, 'src'),
